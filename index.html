@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+    
+            img{
+                float:right;
+                border:3px solid black;
+            }
+            .script{
+                border:5px solid red;
+                width:100%;
+                height:100%;
+            }
+        
+    </style>
+</head>
+<body>
+    <div class="script">
+        <h1 STYLE="text-align:center;color:red">JAVASCRIPT DATA TYPES</h1>
+        <img src="images/image.jpg" >
+    <p><br>
+        1.)<br>let x = 5;<br>
+
+        let y = x;<br>
+        x = 10;<br>
+        document.write(x);<br>
+  
+        document.write(y);<br><br>
+        o/p:<br>"10"<br>"5".
+    </p>-------------------------------------*
+    <p><br>
+        2.)<br>let obj1={name:"alice"}<br>
+     let obj2=obj1;<br>
+     obj1.name="Bob";<br>
+     document.write(obj1.name)<br>
+     document.write(obj2.name)<br><br>
+     o/p:<br>"Bob"<br>"Bob".
+    </p>-------------------------------------*
+    <p><br>
+        3.)<br>let a="hello"<br>
+     let b=42;<br>
+     let c=true;<br>
+     let d={key:"value"};<br>
+     let e=null;<br>
+     let f=undefined;<br>
+     document.write(typeof a);<br>
+     document.write(typeof b);<br>
+     document.write(typeof c);<br>
+     document.write(typeof d);<br>
+    document.write(typeof e);<br>
+    document.write(typeof f);<br><br>
+    o/p:<br>"string"<br>"number"<br>"boolean"<br>"object"<br>"object"<br>"undefined".
+    </p>-------------------------------------*
+    <p><br>
+        4.)<br>let numbers=[10,20,30,40,50];<br>
+     document.write(numbers[2]);<br>
+     document.write(numbers[0]);<br>
+     document.write(numbers[numbers.length-1]);<br><br>
+     o/p:<br>"30"<br>"10"<br>"50".
+   
+     
+     
+    </p>-------------------------------------*
+    <p><br>
+       5.)<br> let fruits=["Apple","banana","mango"];<br>
+     fruits[1]="orange";<br>
+     document.write(fruits)<br><br>
+        o/p:<br>"Apple","orange","mango"<br>
+    </p>-------------------------------------*
+    <p><br>
+       6.)<br> let matrix=[<br>
+            [1,2,4],<br>
+            [4,5,6],<br>
+            [7,8,9]<br>
+    ];<br>
+    document.write(matrix[1][2]);<br>
+    document.write(matrix[2][0]);<br><br>
+        o/p:<br>"67".
+    </p>-------------------------------------*
+    <p><br>
+        7.)<br>let person={<br>
+            name:"john",<br>
+            age:25,<br>
+            city:"new york"<br>
+        };<br>
+        document.write(person.name);<br>
+        document.write(person.age);<br><br>
+        o/p:<br>"john"<br>"25"<br>
+    </p>-------------------------------------*
+    <p><br>
+       8.)<br> let car={<br>
+            make:"Toyota",<br>
+            model:"corolla",<br>
+            year:2021<br>
+        };<br>
+        document.write(car["make"]);<br>
+        document.write(car["model"]);<br><br>
+        o/p:<br>"Toyota"<br>"corolla".<br>
+    </p>-------------------------------------*
+    <p><br>
+        9.)<br>let book={<br>
+            title:"The greatgatsby",<br>
+            author:"F.scott fitzgerald"<br>
+        };<br>
+        book.author="Anonymous";<br>
+        document.write(book.author);<br><br>
+        o/p:<br>"Anonymous".<br>
+    </p>-------------------------------------*
+    <p><br>
+        10.)<br>let student={<br>
+            name:"Alice",<br>
+            grade:"A"<br>
+        };<br>
+        student.age=20;<br>
+        document.write(student.age);<br><br>
+        o/p:<br>"20".
+    </p>-------------------------------------*
+</div>
+    
+</body>
+</html>
